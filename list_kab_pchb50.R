@@ -1,7 +1,7 @@
 setwd('D:/')
 rm(list = ls())
-library(officer)
-library(dplyr)
+#library(officer)
+#library(dplyr)
 pch <- read.csv('pch_prob.2023.02.das.1_ver_2023.01.30.csv')
 id_grid <- read.csv('ID_GRID_CHPROVKAB_INDO_2022.csv')
 id_grid1 <- id_grid[c(1:4,7:10)]
